@@ -70,3 +70,5 @@ group :test do
 end
 
 gem "good_job", "~> 3.21"
+
+gem "phlex-rails", "~> 1.1"
