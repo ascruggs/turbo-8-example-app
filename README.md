@@ -1,6 +1,6 @@
 # README
 
-You need postgres installed and running
+You need postgres & redis installed and running
 
 * `bundle`
 * `yarn`
