@@ -1,7 +1,19 @@
+<%= turbo_stream_from user %>
+
 <div id="<%= dom_id user %>">
   <p>
     <strong>Name:</strong>
     <%= user.name %>
+  </p>
+
+  <p>
+    <strong># Projects:</strong>
+    <%= user.projects.count %>
+  </p>
+
+  <p>
+    <strong># Tasks:</strong>
+    <%= user.tasks.count %>
   </p>
 
 </div>
